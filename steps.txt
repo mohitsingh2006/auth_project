@@ -1,0 +1,20 @@
+1) Create a login function in Auth Controller which will show our login form.
+2) Now we will create login.php view in views folder, here we will create a login form. Again we will use bootstrap to create a login form.
+3) In previous video I have used md5 that is outdated I think we need to fix this and use password hash for better security.
+4) Now we will create function checkUser in Auth_model which will check a record based on email(username).
+5) Now we will modify our login method for user authentication.
+6) After checking authentication we will redirect user to dashboard page.
+7) We will create a dashboard page.
+8) Now we will create a logout function which logout a user.
+9) We will create a authorized function in Auth_model which will check if user is authorized to access dashboard.
+10) If user is already logged in he/she can not see login or register page.
+
+
+background-image: radial-gradient( circle 773px at 2.3% 96.8%,  rgba(73,88,231,1) 0%, rgba(77,19,124,0.97) 100.3% );
+background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+
+background-image: linear-gradient( 106.7deg,  rgba(151,150,240,1) 12.1%, rgba(255,206,236,1) 63.2% );
+
+
+
+background-image: radial-gradient( circle 652px at 0.8% 45.2%,  rgba(4,103,246,1) 0%, rgba(8,0,163,1) 100.3% );
